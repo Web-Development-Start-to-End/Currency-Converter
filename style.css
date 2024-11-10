@@ -1,0 +1,115 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+body {
+  background-color : #757575;
+}
+
+.mainContainer {
+  width : 90vw;
+  height : 70vh;
+  border : 2px solid black;
+  margin : 2vh auto;
+  padding: 0;
+  background-color : #ffffff;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  padding : 20px 0px;
+  font-weight : bold;
+  font-size : 1.5rem;
+  
+}
+
+.amtToBeConvertedContainer{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+
+.amtToBeConverted {
+  width : 30vw;
+  height : 30px;
+  position: relative;
+  left : 5vw;
+  border : 1px solid black;
+  font-size : 1em;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.conversionIcon{
+  width : 12vw;
+  padding : 5px;
+  padding-left : 13px;
+}
+
+
+.DropdownContent{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  padding-top : 5vh;
+}
+
+.fromContainer, .toContainer {
+  display : flex;
+  justify-content : center;
+  align-items : center;
+    &:active{
+      outline: none;
+      border : none;
+    }
+}
+.toFlag, .fromFlag {
+  width : 13vw;
+  padding : 10px;
+}
+
+.answerContainer{
+  position: relative;
+  left : 5vw;
+  top : 3vh;
+  font-weight : bold;
+}
+
+.buttonContainer, .button{
+  width : 25vw;
+  height : 6vh;
+  position: relative;
+  left : 15vw;
+  top : 5vh;
+  font-weight : bold;
+  font-size : 1.2rem;
+  border-radius : 5px;
+  color : #757575;
+
+  & :active {
+    outline: none;
+    border : none;
+    color : white;
+    background-color : #088272;
+  }
+
+}
+
+select{
+  width : 20vw;
+  height : 5vh;
+}
+
+.answerContainer{
+  width : 80vw;
+  height : 5vh;
+  position: relative;
+  top : 5vh;
+  border : 1px solod black;
+}

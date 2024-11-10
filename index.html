@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Currency Converter</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!-- This is a main container -->
+  <div class="mainContainer">
+
+    <!-- This is a heading -->
+    <div class="heading">CURRENCY CONVERTER</div>
+
+    <!-- This is an input field to take amount from user -->
+    <div class="amtToBeConvertedContainer">
+      <h3>Amount : </h3>
+      <input type="number" class="amtToBeConverted" value=1></input>
+    </div>
+
+
+    <!--This div is for dropdown of countries and their corresponding flags-->
+    <div class="DropdownContent">
+
+      <!--From code-->
+      <div class="fromContainer">
+        <img class="fromFlag" src="https://flagsapi.com/US/flat/64.png">
+        <select class="fromDrop-down">
+        </select>
+      </div>
+
+      <!--Conversion Icon is here-->
+      <img class="conversionIcon" src="swap.png">
+
+      <!--To code-->
+      <div class="toContainer">
+        <img class="toFlag" src="https://flagsapi.com/IN/flat/64.png">
+        <select class="toDrop-down">
+        </select>
+      </div>
+    </div>
+
+
+    <div class="answerContainer">
+      <p class="answerText"></p>
+    </div>
+
+    <div class="buttonContainer">
+      <button class="button">Convert</button>
+    </div>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+
+
+</html>
